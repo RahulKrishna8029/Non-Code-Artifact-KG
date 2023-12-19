@@ -17,8 +17,8 @@ from neo4j import GraphDatabase,basic_auth
 nlp = spacy.load("en_core_web_sm")
 
 # Stanford NER setup #install the ner files and paste the path here
-stanford_ner_path = '/Users/grahulkrishna/Desktop/stanford-ner-2018-10-16/stanford-ner.jar'
-stanford_classifier_path = '/Users/grahulkrishna/Desktop/stanford-ner-2018-10-16/classifiers/english.all.3class.distsim.crf.ser.gz'
+stanford_ner_path = ''
+stanford_classifier_path = ''
 
 # Stanford NER Tagger
 stanford_ner_tagger = StanfordNERTagger(stanford_classifier_path, stanford_ner_path, encoding='utf-8')
@@ -204,9 +204,9 @@ def KG_Pull_Requests(pull_requests_info):
 
     print(f'The knowledge graph has been saved to {ttl_filename}.')
     # Connect to Neo4j Aura
-    uri = "neo4j+s://9599df12.databases.neo4j.io"  # Replace with your Neo4j Aura database URI
-    username = "neo4j"     # Replace with your Neo4j Aura username
-    password = "0yQFGPzkZwlKkjCPTHs3-BXKnerNXVReCXIwV7nDJ4E"     # Replace with your Neo4j Aura password
+    uri = ""  # Replace with your Neo4j Aura database URI
+    username = ""     # Replace with your Neo4j Aura username
+    password = ""     # Replace with your Neo4j Aura password
 
     try:
         with GraphDatabase.driver(uri, auth=(username, password)) as driver:
