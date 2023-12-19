@@ -7,7 +7,7 @@ from pull_Request_structure import display_pull_request_info
 from Knowledge_Graph import KG_Pull_Requests
 
 # access token initialisation
-g = Github("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")
+g = Github()
 
 
 def pull_graph(repo):
