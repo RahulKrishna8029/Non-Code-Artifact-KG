@@ -1,0 +1,545 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.org/> .
+
+ex:1 rdf:type ex:Commits .
+ex:1 rdfs:label 'Commits: 1' .
+ex:indierawk2k2 rdf:type ex:Author .
+ex:indierawk2k2 rdfs:label 'indierawk2k2' .
+ex:closed rdf:type ex:State .
+ex:closed rdfs:label 'closed' .
+ex:2019-05-05 21:22:54 rdf:type ex:Timestamp .
+ex:2019-05-05 21:22:54 rdfs:label '2019-05-05 21:22:54' .
+ex:11 rdf:type ex:Commits .
+ex:11 rdfs:label 'Commits: 11' .
+ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 rdf:type ex:Commit_ID .
+ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 rdfs:label 'Commit: cbaa5fb' .
+ex:Update rdf:type ex:B-GPE .
+ex:Update rdfs:label 'Update' .
+ex:O_Change rdf:type ex:O_Change .
+ex:O_Change rdfs:label 'O' .
+ex:2019-05-05 18:41:29 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 18:41:29 rdfs:label '2019-05-05 18:41:29' .
+ex:README.md rdf:type ex:O .
+ex:README.md rdfs:label 'README.md' .
+ex:B-GPE_Change rdf:type ex:B-GPE_Change .
+ex:B-GPE_Change rdfs:label 'B-GPE' .
+ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 rdf:type ex:Commit_ID .
+ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 rdfs:label 'Commit: 40210c2' .
+ex:logo rdf:type ex:O .
+ex:logo rdfs:label 'logo' .
+ex:2019-05-05 20:17:58 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:17:58 rdfs:label '2019-05-05 20:17:58' .
+ex:image rdf:type ex:O .
+ex:image rdfs:label 'image' .
+ex:Uploading rdf:type ex:O .
+ex:Uploading rdfs:label 'Uploading' .
+ex:9a54a918a0fbf722975ea2a2e86d855d1a88066e rdf:type ex:Commit_ID .
+ex:9a54a918a0fbf722975ea2a2e86d855d1a88066e rdfs:label 'Commit: 9a54a91' .
+ex:2019-05-05 20:21:54 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:21:54 rdfs:label '2019-05-05 20:21:54' .
+ex:Adding rdf:type ex:O .
+ex:Adding rdfs:label 'Adding' .
+ex:46f33f81fdae5c3373629cae800699611442eefb rdf:type ex:Commit_ID .
+ex:46f33f81fdae5c3373629cae800699611442eefb rdfs:label 'Commit: 46f33f8' .
+ex:Delete rdf:type ex:O .
+ex:Delete rdfs:label 'Delete' .
+ex:B-PERSON_Change rdf:type ex:B-PERSON_Change .
+ex:B-PERSON_Change rdfs:label 'B-PERSON' .
+ex:2019-05-05 20:27:48 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:27:48 rdfs:label '2019-05-05 20:27:48' .
+ex:PowerToys.jpg rdf:type ex:O .
+ex:PowerToys.jpg rdfs:label 'PowerToys.jpg' .
+ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 rdf:type ex:Commit_ID .
+ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 rdfs:label 'Commit: b175ef1' .
+ex:2019-05-05 20:28:09 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:28:09 rdfs:label '2019-05-05 20:28:09' .
+ex:977c2d1aace75f433a60862a1f8f231c6e68944f rdf:type ex:Commit_ID .
+ex:977c2d1aace75f433a60862a1f8f231c6e68944f rdfs:label 'Commit: 977c2d1' .
+ex:2019-05-05 20:28:23 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:28:23 rdfs:label '2019-05-05 20:28:23' .
+ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc rdf:type ex:Commit_ID .
+ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc rdfs:label 'Commit: e5d8f4d' .
+ex:2019-05-05 20:31:10 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:31:10 rdfs:label '2019-05-05 20:31:10' .
+ex:updated rdf:type ex:O .
+ex:updated rdfs:label 'updated' .
+ex:ebd05200cf9fd0af9acea5f348121e61ec586754 rdf:type ex:Commit_ID .
+ex:ebd05200cf9fd0af9acea5f348121e61ec586754 rdfs:label 'Commit: ebd0520' .
+ex:2019-05-05 20:38:18 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:38:18 rdfs:label '2019-05-05 20:38:18' .
+ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f rdf:type ex:Commit_ID .
+ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f rdfs:label 'Commit: cd385ab' .
+ex:utilities rdf:type ex:O .
+ex:utilities rdfs:label 'utilities' .
+ex:2019-05-05 20:38:48 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:38:48 rdfs:label '2019-05-05 20:38:48' .
+ex:images rdf:type ex:O .
+ex:images rdfs:label 'images' .
+ex:preview rdf:type ex:O .
+ex:preview rdfs:label 'preview' .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f rdf:type ex:Commit_ID .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f rdfs:label 'Commit: f35ac08' .
+ex:two rdf:type ex:O .
+ex:two rdfs:label 'two' .
+ex:CARDINAL_Change rdf:type ex:CARDINAL_Change .
+ex:CARDINAL_Change rdfs:label 'CARDINAL' .
+ex:2019-05-05 20:41:05 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:41:05 rdfs:label '2019-05-05 20:41:05' .
+ex:Updating rdf:type ex:O .
+ex:Updating rdfs:label 'Updating' .
+ex:first rdf:type ex:O .
+ex:first rdfs:label 'first' .
+ex:ORDINAL_Change rdf:type ex:ORDINAL_Change .
+ex:ORDINAL_Change rdfs:label 'ORDINAL' .
+ex:0e85d5fdfbed766209b76315858e57c266cad033 rdf:type ex:Commit_ID .
+ex:0e85d5fdfbed766209b76315858e57c266cad033 rdfs:label 'Commit: 0e85d5f' .
+ex:couple rdf:type ex:O .
+ex:couple rdfs:label 'couple' .
+ex:2019-05-05 20:45:16 rdf:type ex:Commit_Timestamp .
+ex:2019-05-05 20:45:16 rdfs:label '2019-05-05 20:45:16' .
+ex:Fix rdf:type ex:O .
+ex:Fix rdfs:label 'Fix' .
+ex:typeos rdf:type ex:O .
+ex:typeos rdfs:label 'typeos' .
+ex:2 rdf:type ex:Pull_Request .
+ex:2 rdfs:label 'PR-2' .
+ex:corbob rdf:type ex:Author .
+ex:corbob rdfs:label 'corbob' .
+ex:2019-05-09 15:53:16 rdf:type ex:Timestamp .
+ex:2019-05-09 15:53:16 rdfs:label '2019-05-09 15:53:16' .
+ex:ec41e808ef60ac446d7c6cf871a9063a28534111 rdf:type ex:Commit_ID .
+ex:ec41e808ef60ac446d7c6cf871a9063a28534111 rdfs:label 'Commit: ec41e80' .
+ex:fix rdf:type ex:O .
+ex:fix rdfs:label 'fix' .
+ex:2019-05-06 23:33:08 rdf:type ex:Commit_Timestamp .
+ex:2019-05-06 23:33:08 rdfs:label '2019-05-06 23:33:08' .
+ex:typos rdf:type ex:O .
+ex:typos rdfs:label 'typos' .
+ex:3 rdf:type ex:Pull_Request .
+ex:3 rdfs:label 'PR-3' .
+ex:tomer rdf:type ex:Author .
+ex:tomer rdfs:label 'tomer' .
+ex:2019-05-09 15:57:30 rdf:type ex:Timestamp .
+ex:2019-05-09 15:57:30 rdfs:label '2019-05-09 15:57:30' .
+ex:b3e3a0ce2a41ac7d68909f586446f9a4a66ada88 rdf:type ex:Commit_ID .
+ex:b3e3a0ce2a41ac7d68909f586446f9a4a66ada88 rdfs:label 'Commit: b3e3a0c' .
+ex:sexpereinceexperience rdf:type ex:O .
+ex:sexpereinceexperience rdfs:label 'sexpereinceexperience' .
+ex:2019-05-07 03:36:42 rdf:type ex:Commit_Timestamp .
+ex:2019-05-07 03:36:42 rdfs:label '2019-05-07 03:36:42' .
+ex:4 rdf:type ex:Pull_Request .
+ex:4 rdfs:label 'PR-4' .
+ex:joshuaalm rdf:type ex:Author .
+ex:joshuaalm rdfs:label 'joshuaalm' .
+ex:2019-05-09 15:58:32 rdf:type ex:Timestamp .
+ex:2019-05-09 15:58:32 rdfs:label '2019-05-09 15:58:32' .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 rdf:type ex:Commit_ID .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 rdfs:label 'Commit: f2c9538' .
+ex:Minor rdf:type ex:O .
+ex:Minor rdfs:label 'Minor' .
+ex:2019-05-08 15:45:56 rdf:type ex:Commit_Timestamp .
+ex:2019-05-08 15:45:56 rdfs:label '2019-05-08 15:45:56' .
+ex:already rdf:type ex:O .
+ex:already rdfs:label 'already' .
+ex:Tab rdf:type ex:PERSON .
+ex:Tab rdfs:label 'Tab' .
+ex:lines rdf:type ex:O .
+ex:lines rdfs:label 'lines' .
+ex:PERSON_Change rdf:type ex:PERSON_Change .
+ex:PERSON_Change rdfs:label 'PERSON' .
+ex:Surface rdf:type ex:O .
+ex:Surface rdfs:label 'Surface' .
+ex:corrections rdf:type ex:O .
+ex:corrections rdfs:label 'corrections' .
+ex:names rdf:type ex:O .
+ex:names rdfs:label 'names' .
+ex:Book rdf:type ex:O .
+ex:Book rdfs:label 'Book' .
+ex:transpositions rdf:type ex:O .
+ex:transpositions rdfs:label 'transpositions' .
+ex:key rdf:type ex:O .
+ex:key rdfs:label 'key' .
+ex:consistency rdf:type ex:O .
+ex:consistency rdfs:label 'consistency' .
+ex:capitalized rdf:type ex:O .
+ex:capitalized rdfs:label 'capitalized' .
+ex:letter rdf:type ex:O .
+ex:letter rdfs:label 'letter' .
+ex:Corrected rdf:type ex:O .
+ex:Corrected rdfs:label 'Corrected' .
+ex:respective rdf:type ex:O .
+ex:respective rdfs:label 'respective' .
+ex:modifier rdf:type ex:O .
+ex:modifier rdfs:label 'modifier' .
+ex:keys rdf:type ex:O .
+ex:keys rdfs:label 'keys' .
+ex:spelling rdf:type ex:O .
+ex:spelling rdfs:label 'spelling' .
+ex:Alt+Tab rdf:type ex:O .
+ex:Alt+Tab rdfs:label 'Alt+Tab' .
+ex:beginning rdf:type ex:O .
+ex:beginning rdfs:label 'beginning' .
+ex:5 rdf:type ex:Pull_Request .
+ex:5 rdfs:label 'PR-5' .
+ex:Meir017 rdf:type ex:Author .
+ex:Meir017 rdfs:label 'Meir017' .
+ex:2019-05-15 14:05:06 rdf:type ex:Timestamp .
+ex:2019-05-15 14:05:06 rdfs:label '2019-05-15 14:05:06' .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c rdf:type ex:Commit_ID .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c rdfs:label 'Commit: 50438d3' .
+ex:Backlog rdf:type ex:B-GPE .
+ex:Backlog rdfs:label 'Backlog' .
+ex:LOC_Change rdf:type ex:LOC_Change .
+ex:LOC_Change rdfs:label 'LOC' .
+ex:2019-05-15 08:00:02 rdf:type ex:Commit_Timestamp .
+ex:2019-05-15 08:00:02 rdfs:label '2019-05-15 08:00:02' .
+ex:list rdf:type ex:O .
+ex:list rdfs:label 'list' .
+ex:add rdf:type ex:O .
+ex:add rdfs:label 'add' .
+ex:issue rdf:type ex:O .
+ex:issue rdfs:label 'issue' .
+ex:links rdf:type ex:O .
+ex:links rdfs:label 'links' .
+ex:6 rdf:type ex:Pull_Request .
+ex:6 rdfs:label 'PR-6' .
+ex:bzoz rdf:type ex:Author .
+ex:bzoz rdfs:label 'bzoz' .
+ex:2019-09-05 16:12:42 rdf:type ex:Timestamp .
+ex:2019-09-05 16:12:42 rdfs:label '2019-09-05 16:12:42' .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 rdf:type ex:Commit_ID .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 rdfs:label 'Commit: c4c9a85' .
+ex:Jaime Bernardo < rdf:type ex:PERSON .
+ex:Jaime Bernardo < rdfs:label 'Jaime Bernardo <' .
+ex:2019-09-05 15:20:25 rdf:type ex:Commit_Timestamp .
+ex:2019-09-05 15:20:25 rdfs:label '2019-09-05 15:20:25' .
+ex:Shortcut rdf:type ex:B-PERSON .
+ex:Shortcut rdfs:label 'Shortcut' .
+ex:Nachum rdf:type ex:B-PERSON .
+ex:Nachum rdfs:label 'Nachum' .
+ex:commit rdf:type ex:O .
+ex:commit rdfs:label 'commit' .
+ex:Patrick Little < rdf:type ex:PERSON .
+ex:Patrick Little < rdfs:label 'Patrick Little <' .
+ex:Nachum.Bundak rdf:type ex:O .
+ex:Nachum.Bundak rdfs:label 'Nachum.Bundak' .
+ex:Jones rdf:type ex:PERSON .
+ex:Jones rdfs:label 'Jones' .
+ex:I-PERSON_Change rdf:type ex:I-PERSON_Change .
+ex:I-PERSON_Change rdfs:label 'I-PERSON' .
+ex:Bernardo rdf:type ex:I-PERSON .
+ex:Bernardo rdfs:label 'Bernardo' .
+ex:March rdf:type ex:O .
+ex:March rdfs:label 'March' .
+ex:Rogers rdf:type ex:O .
+ex:Rogers rdfs:label 'Rogers' .
+ex:janeasystems.com rdf:type ex:O .
+ex:janeasystems.com rdfs:label 'janeasystems.com' .
+ex:Bundak rdf:type ex:O .
+ex:Bundak rdfs:label 'Bundak' .
+ex:jeffbog rdf:type ex:O .
+ex:jeffbog rdfs:label 'jeffbog' .
+ex:Enrico rdf:type ex:B-PERSON .
+ex:Enrico rdfs:label 'Enrico' .
+ex:Mike rdf:type ex:B-PERSON .
+ex:Mike rdfs:label 'Mike' .
+ex:Anderson rdf:type ex:I-PERSON .
+ex:Anderson rdfs:label 'Anderson' .
+ex:Little rdf:type ex:I-PERSON .
+ex:Little rdfs:label 'Little' .
+ex:Bret rdf:type ex:PERSON .
+ex:Bret rdfs:label 'Bret' .
+ex:Patrick rdf:type ex:O .
+ex:Patrick rdfs:label 'Patrick' .
+ex:bretan rdf:type ex:O .
+ex:bretan rdfs:label 'bretan' .
+ex:ojones rdf:type ex:O .
+ex:ojones rdfs:label 'ojones' .
+ex:Alexis rdf:type ex:PERSON .
+ex:Alexis rdfs:label 'Alexis' .
+ex:Oliver rdf:type ex:PERSON .
+ex:Oliver rdfs:label 'Oliver' .
+ex:> rdf:type ex:O .
+ex:> rdfs:label '>' .
+ex:Jaime rdf:type ex:B-PERSON .
+ex:Jaime rdfs:label 'Jaime' .
+ex:Guide rdf:type ex:I-PERSON .
+ex:Guide rdfs:label 'Guide' .
+ex:Bogdan rdf:type ex:I-PERSON .
+ex:Bogdan rdfs:label 'Bogdan' .
+ex:Jeff Bogdan < rdf:type ex:PERSON .
+ex:Jeff Bogdan < rdfs:label 'Jeff Bogdan <' .
+ex:FancyZones rdf:type ex:ORG .
+ex:FancyZones rdfs:label 'FancyZones' .
+ex:Giordani rdf:type ex:I-PERSON .
+ex:Giordani rdfs:label 'Giordani' .
+ex:Harsh rdf:type ex:I-PERSON .
+ex:Harsh rdfs:label 'Harsh' .
+ex:Jeff rdf:type ex:PERSON .
+ex:Jeff rdfs:label 'Jeff' .
+ex:Campailla rdf:type ex:PERSON .
+ex:Campailla rdfs:label 'Campailla' .
+ex:Co-authored-by rdf:type ex:O .
+ex:Co-authored-by rdfs:label 'Co-authored-by' .
+ex:ORG_Change rdf:type ex:ORG_Change .
+ex:ORG_Change rdfs:label 'ORG' .
+ex:alexis rdf:type ex:O .
+ex:alexis rdfs:label 'alexis' .
+ex:mharsh rdf:type ex:O .
+ex:mharsh rdfs:label 'mharsh' .
+ex:enrico.giordani rdf:type ex:O .
+ex:enrico.giordani rdfs:label 'enrico.giordani' .
+ex:Nachum Bundak <Nachum.Bundak@microsoft.com rdf:type ex:PERSON .
+ex:Nachum Bundak <Nachum.Bundak@microsoft.com rdfs:label 'Nachum Bundak <Nachum.Bundak@microsoft.com' .
+ex:jaime rdf:type ex:O .
+ex:jaime rdfs:label 'jaime' .
+ex:Enrico Giordani rdf:type ex:PERSON .
+ex:Enrico Giordani rdfs:label 'Enrico Giordani' .
+ex:Shortcut Guide rdf:type ex:ORG .
+ex:Shortcut Guide rdfs:label 'Shortcut Guide' .
+ex:gmail.com rdf:type ex:O .
+ex:gmail.com rdfs:label 'gmail.com' .
+ex:Mike Harsh rdf:type ex:PERSON .
+ex:Mike Harsh rdfs:label 'Mike Harsh' .
+ex:Oliver Jones rdf:type ex:PERSON .
+ex:Oliver Jones rdfs:label 'Oliver Jones' .
+ex:initial rdf:type ex:O .
+ex:initial rdfs:label 'initial' .
+ex:marchr rdf:type ex:O .
+ex:marchr rdfs:label 'marchr' .
+ex:plittle rdf:type ex:O .
+ex:plittle rdfs:label 'plittle' .
+ex:< rdf:type ex:O .
+ex:< rdfs:label '<' .
+ex:@ rdf:type ex:O .
+ex:@ rdfs:label '@' .
+ex:microsoft.com rdf:type ex:O .
+ex:microsoft.com rdfs:label 'microsoft.com' .
+ex:Bret Anderson rdf:type ex:PERSON .
+ex:Bret Anderson rdfs:label 'Bret Anderson' .
+ex:7 rdf:type ex:Pull_Request .
+ex:7 rdfs:label 'PR-7' .
+ex:grumpydev rdf:type ex:Author .
+ex:grumpydev rdfs:label 'grumpydev' .
+ex:2019-09-06 17:01:40 rdf:type ex:Timestamp .
+ex:2019-09-06 17:01:40 rdfs:label '2019-09-06 17:01:40' .
+ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb rdf:type ex:Commit_ID .
+ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb rdfs:label 'Commit: bc03832' .
+ex:Fixed rdf:type ex:B-GPE .
+ex:Fixed rdfs:label 'Fixed' .
+ex:2019-09-05 16:39:02 rdf:type ex:Commit_Timestamp .
+ex:2019-09-05 16:39:02 rdfs:label '2019-09-05 16:39:02' .
+ex:readme rdf:type ex:O .
+ex:readme rdfs:label 'readme' .
+ex:typo rdf:type ex:O .
+ex:typo rdfs:label 'typo' .
+
+ex:1 ex:authored_by ex:indierawk2k2 .
+ex:1 ex:has_state ex:closed .
+ex:1 ex:closed_at ex:2019-05-05 21:22:54 .
+ex:1 ex:has_commits ex:11 .
+ex:1 ex:has_commits ex:2 .
+ex:1 ex:includes_commit ex:ec41e808ef60ac446d7c6cf871a9063a28534111 .
+ex:1 ex:has_commits ex:3 .
+ex:1 ex:includes_commit ex:b3e3a0ce2a41ac7d68909f586446f9a4a66ada88 .
+ex:1 ex:has_commits ex:4 .
+ex:1 ex:includes_commit ex:f2c9538701e7116c273a5689cf202c82c5a09045 .
+ex:1 ex:has_commits ex:5 .
+ex:1 ex:includes_commit ex:50438d37c53f0fbfc9074a187ccfca56b827da9c .
+ex:1 ex:has_commits ex:6 .
+ex:1 ex:includes_commit ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 .
+ex:1 ex:has_commits ex:7 .
+ex:1 ex:includes_commit ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb .
+ex:closed ex:has_state ex:2 .
+ex:closed ex:has_state ex:3 .
+ex:closed ex:has_state ex:4 .
+ex:closed ex:has_state ex:5 .
+ex:closed ex:has_state ex:6 .
+ex:closed ex:has_state ex:7 .
+ex:11 ex:includes_commit ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 .
+ex:11 ex:includes_commit ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 .
+ex:11 ex:includes_commit ex:9a54a918a0fbf722975ea2a2e86d855d1a88066e .
+ex:11 ex:includes_commit ex:46f33f81fdae5c3373629cae800699611442eefb .
+ex:11 ex:includes_commit ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 .
+ex:11 ex:includes_commit ex:977c2d1aace75f433a60862a1f8f231c6e68944f .
+ex:11 ex:includes_commit ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc .
+ex:11 ex:includes_commit ex:ebd05200cf9fd0af9acea5f348121e61ec586754 .
+ex:11 ex:includes_commit ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f .
+ex:11 ex:includes_commit ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f .
+ex:11 ex:includes_commit ex:0e85d5fdfbed766209b76315858e57c266cad033 .
+ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 ex:mentions_entity ex:Update .
+ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 ex:includes_file_change ex:O_Change .
+ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 ex:committed_at ex:2019-05-05 18:41:29 .
+ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 ex:mentions_entity ex:README.md .
+ex:cbaa5fb732528a61e016da16815de6dffc6cacf1 ex:includes_file_change ex:B-GPE_Change .
+ex:Update ex:mentions_entity ex:977c2d1aace75f433a60862a1f8f231c6e68944f .
+ex:Update ex:mentions_entity ex:ebd05200cf9fd0af9acea5f348121e61ec586754 .
+ex:O_Change ex:includes_file_change ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 .
+ex:O_Change ex:includes_file_change ex:9a54a918a0fbf722975ea2a2e86d855d1a88066e .
+ex:O_Change ex:includes_file_change ex:46f33f81fdae5c3373629cae800699611442eefb .
+ex:O_Change ex:includes_file_change ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 .
+ex:O_Change ex:includes_file_change ex:977c2d1aace75f433a60862a1f8f231c6e68944f .
+ex:O_Change ex:includes_file_change ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc .
+ex:O_Change ex:includes_file_change ex:ebd05200cf9fd0af9acea5f348121e61ec586754 .
+ex:O_Change ex:includes_file_change ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f .
+ex:O_Change ex:includes_file_change ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f .
+ex:O_Change ex:includes_file_change ex:0e85d5fdfbed766209b76315858e57c266cad033 .
+ex:O_Change ex:includes_file_change ex:ec41e808ef60ac446d7c6cf871a9063a28534111 .
+ex:O_Change ex:includes_file_change ex:b3e3a0ce2a41ac7d68909f586446f9a4a66ada88 .
+ex:O_Change ex:includes_file_change ex:f2c9538701e7116c273a5689cf202c82c5a09045 .
+ex:O_Change ex:includes_file_change ex:50438d37c53f0fbfc9074a187ccfca56b827da9c .
+ex:O_Change ex:includes_file_change ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 .
+ex:O_Change ex:includes_file_change ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb .
+ex:README.md ex:mentions_entity ex:977c2d1aace75f433a60862a1f8f231c6e68944f .
+ex:README.md ex:mentions_entity ex:ebd05200cf9fd0af9acea5f348121e61ec586754 .
+ex:B-GPE_Change ex:includes_file_change ex:977c2d1aace75f433a60862a1f8f231c6e68944f .
+ex:B-GPE_Change ex:includes_file_change ex:ebd05200cf9fd0af9acea5f348121e61ec586754 .
+ex:B-GPE_Change ex:includes_file_change ex:50438d37c53f0fbfc9074a187ccfca56b827da9c .
+ex:B-GPE_Change ex:includes_file_change ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb .
+ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 ex:mentions_entity ex:logo .
+ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 ex:committed_at ex:2019-05-05 20:17:58 .
+ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 ex:mentions_entity ex:image .
+ex:40210c2e16c0bd9f3b07a02507d721e84eabec03 ex:mentions_entity ex:Uploading .
+ex:logo ex:mentions_entity ex:9a54a918a0fbf722975ea2a2e86d855d1a88066e .
+ex:logo ex:mentions_entity ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 .
+ex:logo ex:mentions_entity ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc .
+ex:image ex:mentions_entity ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 .
+ex:image ex:mentions_entity ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc .
+ex:9a54a918a0fbf722975ea2a2e86d855d1a88066e ex:committed_at ex:2019-05-05 20:21:54 .
+ex:9a54a918a0fbf722975ea2a2e86d855d1a88066e ex:mentions_entity ex:Adding .
+ex:Adding ex:mentions_entity ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 .
+ex:Adding ex:mentions_entity ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc .
+ex:Adding ex:mentions_entity ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f .
+ex:46f33f81fdae5c3373629cae800699611442eefb ex:mentions_entity ex:Delete .
+ex:46f33f81fdae5c3373629cae800699611442eefb ex:includes_file_change ex:B-PERSON_Change .
+ex:46f33f81fdae5c3373629cae800699611442eefb ex:committed_at ex:2019-05-05 20:27:48 .
+ex:46f33f81fdae5c3373629cae800699611442eefb ex:mentions_entity ex:PowerToys.jpg .
+ex:B-PERSON_Change ex:includes_file_change ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 .
+ex:b175ef1dd5ca8741bd43b43bf17d47e9ef259828 ex:committed_at ex:2019-05-05 20:28:09 .
+ex:977c2d1aace75f433a60862a1f8f231c6e68944f ex:committed_at ex:2019-05-05 20:28:23 .
+ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc ex:committed_at ex:2019-05-05 20:31:10 .
+ex:e5d8f4d8b9290979481aecf1abb471b4f024aebc ex:mentions_entity ex:updated .
+ex:ebd05200cf9fd0af9acea5f348121e61ec586754 ex:committed_at ex:2019-05-05 20:38:18 .
+ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f ex:mentions_entity ex:utilities .
+ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f ex:committed_at ex:2019-05-05 20:38:48 .
+ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f ex:mentions_entity ex:images .
+ex:cd385ab2d7671d1d9fdbbfd90788543f9f31c59f ex:mentions_entity ex:preview .
+ex:utilities ex:mentions_entity ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f .
+ex:images ex:mentions_entity ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f ex:mentions_entity ex:two .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f ex:includes_file_change ex:CARDINAL_Change .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f ex:committed_at ex:2019-05-05 20:41:05 .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f ex:mentions_entity ex:Updating .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f ex:mentions_entity ex:first .
+ex:f35ac08f4aef8868d655517e00d15b4d9ce5fa5f ex:includes_file_change ex:ORDINAL_Change .
+ex:0e85d5fdfbed766209b76315858e57c266cad033 ex:mentions_entity ex:couple .
+ex:0e85d5fdfbed766209b76315858e57c266cad033 ex:committed_at ex:2019-05-05 20:45:16 .
+ex:0e85d5fdfbed766209b76315858e57c266cad033 ex:mentions_entity ex:Fix .
+ex:0e85d5fdfbed766209b76315858e57c266cad033 ex:mentions_entity ex:typeos .
+ex:couple ex:mentions_entity ex:ec41e808ef60ac446d7c6cf871a9063a28534111 .
+ex:2 ex:authored_by ex:corbob .
+ex:2 ex:closed_at ex:2019-05-09 15:53:16 .
+ex:ec41e808ef60ac446d7c6cf871a9063a28534111 ex:mentions_entity ex:fix .
+ex:ec41e808ef60ac446d7c6cf871a9063a28534111 ex:committed_at ex:2019-05-06 23:33:08 .
+ex:ec41e808ef60ac446d7c6cf871a9063a28534111 ex:mentions_entity ex:typos .
+ex:3 ex:authored_by ex:tomer .
+ex:3 ex:closed_at ex:2019-05-09 15:57:30 .
+ex:b3e3a0ce2a41ac7d68909f586446f9a4a66ada88 ex:mentions_entity ex:sexpereinceexperience .
+ex:b3e3a0ce2a41ac7d68909f586446f9a4a66ada88 ex:committed_at ex:2019-05-07 03:36:42 .
+ex:4 ex:authored_by ex:joshuaalm .
+ex:4 ex:closed_at ex:2019-05-09 15:58:32 .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:Minor .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:committed_at ex:2019-05-08 15:45:56 .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:already .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:Tab .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:lines .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:includes_file_change ex:PERSON_Change .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:Surface .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:corrections .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:names .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:Book .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:transpositions .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:key .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:consistency .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:capitalized .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:letter .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:Corrected .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:respective .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:modifier .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:keys .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:spelling .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:Alt+Tab .
+ex:f2c9538701e7116c273a5689cf202c82c5a09045 ex:mentions_entity ex:beginning .
+ex:PERSON_Change ex:includes_file_change ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 .
+ex:5 ex:authored_by ex:Meir017 .
+ex:5 ex:closed_at ex:2019-05-15 14:05:06 .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c ex:mentions_entity ex:Backlog .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c ex:includes_file_change ex:LOC_Change .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c ex:committed_at ex:2019-05-15 08:00:02 .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c ex:mentions_entity ex:list .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c ex:mentions_entity ex:add .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c ex:mentions_entity ex:issue .
+ex:50438d37c53f0fbfc9074a187ccfca56b827da9c ex:mentions_entity ex:links .
+ex:6 ex:authored_by ex:bzoz .
+ex:6 ex:closed_at ex:2019-09-05 16:12:42 .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Jaime Bernardo < .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:committed_at ex:2019-09-05 15:20:25 .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Shortcut .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Nachum .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:commit .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Patrick Little < .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Nachum.Bundak .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Jones .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:includes_file_change ex:I-PERSON_Change .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Bernardo .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:March .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Rogers .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:janeasystems.com .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Bundak .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:jeffbog .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Enrico .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Mike .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Anderson .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Little .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Bret .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Patrick .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:bretan .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:ojones .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Alexis .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Oliver .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:> .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Jaime .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Guide .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Bogdan .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Jeff Bogdan < .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:FancyZones .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Giordani .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Harsh .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Jeff .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Campailla .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Co-authored-by .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:includes_file_change ex:ORG_Change .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:alexis .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:mharsh .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:enrico.giordani .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Nachum Bundak <Nachum.Bundak@microsoft.com .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:jaime .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Enrico Giordani .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Shortcut Guide .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:gmail.com .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Mike Harsh .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Oliver Jones .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:initial .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:marchr .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:plittle .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:< .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:@ .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:microsoft.com .
+ex:c4c9a851fc66226e307ed56eab700a7ec2865fe2 ex:mentions_entity ex:Bret Anderson .
+ex:7 ex:authored_by ex:grumpydev .
+ex:7 ex:closed_at ex:2019-09-06 17:01:40 .
+ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb ex:mentions_entity ex:Fixed .
+ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb ex:committed_at ex:2019-09-05 16:39:02 .
+ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb ex:mentions_entity ex:readme .
+ex:bc0383232d437fcc4b8a2b03e70b240339fa6efb ex:mentions_entity ex:typo .
